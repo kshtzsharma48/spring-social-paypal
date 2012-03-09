@@ -19,7 +19,7 @@ import java.util.List;
 
 public class PayPalProfile {
     
-    String status;
+    Status status;
     String language;
     String fullName;
     String userId;
@@ -29,6 +29,8 @@ public class PayPalProfile {
     String firstName;
     String lastName;
     String telephoneNumber;
+    
+    public enum Status {ACTIVE, INACTIVE};
     
     public static class Address {
         
@@ -65,7 +67,7 @@ public class PayPalProfile {
         
     }
 
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
 
