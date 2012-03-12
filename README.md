@@ -7,6 +7,12 @@ To get started, first check-out the Spring Social PayPal Quickstart sample proje
 
 <https://github.com/felipealbertao/spring-social-paypal-quickstart-30x#readme>
 
+Then, learn how to use Spring Social PayPal in your application:
+
+<https://github.com/felipealbertao/spring-social-paypal/wiki/Quick-Start>
+
+---------------------------------------------------------------------
+
 This project was based on [Spring Social Facebook].
 
 [PayPal Access API]: https://www.x.com/paypal-access
