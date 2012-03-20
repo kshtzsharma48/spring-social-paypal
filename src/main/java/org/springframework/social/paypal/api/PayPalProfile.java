@@ -29,6 +29,7 @@ public class PayPalProfile {
     String firstName;
     String lastName;
     String telephoneNumber;
+    String payerID;
     
     public enum Status {ACTIVE, INACTIVE};
     
@@ -105,6 +106,10 @@ public class PayPalProfile {
 
     public String getTelephoneNumber() {
         return telephoneNumber;
+    }
+    
+    public String getPayerID() {
+        return payerID;
     }
     
 }
